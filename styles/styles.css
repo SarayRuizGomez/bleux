@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* diseño del menu*/
+
+nav {
+
+    overflow: hidden;
+    background-color: #1e172f;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+}
+
+ul {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+li {
+
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+li a {
+
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 20px 0;
+    margin-left: 380px;
+    font-size: 20px;
+
+}
+
+.boton button {
+
+    margin: 0px;
+    padding: 15px 28px;
+    font-size: 15px;
+    background: linear-gradient(to right, #8640d5, #0a7cd5);
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+
+}
+
+nav img {
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+/* diseño de la parte 1*/
+
+.caja1 {
+
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/images/hojasFondo.jpg);
+    background-position: 410px -77px;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+
+}
+
+.izquierda1 {
+
+    height: 650px;
+    width: 48%;
+    align-items: center;
+    background-color: #2e2550;
+    color: #ffffff;
+
+}
+
+.izquierda1 h1 {
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 130px;
+    line-height: 1.5;
+}
+
+.izquierda1 p {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 130px;
+    line-height: 1.5;
+}
+
+.botones {
+
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+    margin-left: 130px;
+    padding: 10px 9px;
+    font-size: 15px;
+    border-color: rgba(253, 253, 253, 0.1);
+    border: 2.5px solid rgba(253, 253, 253, 0.1);
+    border-radius: 5px;
+    margin-right: 153px;
+
+}
+
+.botones button {
+
+    margin: 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.boton1 button {
+
+    background-color: rgb(255, 255, 255);
+    color: #ed71b1;
+    padding: 10px 25px;
+    border-radius: 7px;
+    height: 100%;
+    width: 180px;
+    inline-size: center;
+    font-size: 17px;
+}
+
+.boton2 button {
+
+    background-color: #2e2550;
+    border: 2.5px solid rgba(253, 253, 253);
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 28px;
+    border-radius: 7px;
+    height: 100%;
+    width: 150px;
+
+}
+
+.derecha1 img {
+
+    height: 70%;
+    width: 41%;
+    margin-top: 140px;
+    margin-right: 250px;
+
+}
+
+/* diseño de la parte 2 */
+
+.izquierda2 img {
+
+    height: 50%;
+    width: 35%;
+}
+
+.centro {
+    font-size: 25px;
+    justify-content: center;
+
+    
+
+}
+
+.mover {
+
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
